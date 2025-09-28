@@ -36,8 +36,8 @@
 /* PLASMUS PLASMA Theme Styles */
 :root {
   /* Backgrounds - PLASMA Green Theme */
-  --bg-primary: linear-gradient(135deg, #1a2e1a 0%, #0d4d0d 50%, #1a2e1a 100%);
-  --bg-secondary: #1a2e1a;
+  --bg-primary: linear-gradient(135deg, rgba(22, 47, 41, 0.8) 0%, rgba(18, 38, 33, 1) 50%, rgba(22, 47, 41, 0.8) 100%);
+  --bg-secondary: rgba(22, 47, 41, 1);
   --bg-overlay: rgba(174, 255, 0, 0.08);
   
   /* Text - High Contrast for Dark Theme */
