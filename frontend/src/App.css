@@ -67,7 +67,7 @@
 
 /* Header Styles */
 .dark-header {
-  background: rgba(22, 47, 41, 0.95);
+  background: var(--bg-primary);
   border-bottom: 1px solid var(--border-subtle);
   padding: 16px 7.6923%;
   display: flex;
