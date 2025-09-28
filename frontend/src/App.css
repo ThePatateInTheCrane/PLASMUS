@@ -89,7 +89,7 @@
 }
 
 .dark-nav-link {
-  color: var(--text-muted);
+  color: var(--text-secondary);
   text-decoration: none;
   font-size: 18px;
   font-weight: 400;
@@ -97,7 +97,7 @@
 }
 
 .dark-nav-link:hover {
-  color: var(--text-primary);
+  color: var(--brand-primary);
 }
 
 /* Hero Section */
