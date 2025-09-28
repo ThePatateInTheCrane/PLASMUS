@@ -52,36 +52,18 @@
             }
         </style>
         <script>
-            // Ultra aggressive removal - target position and content
+            // Simple badge removal without MutationObserver
             function nukeBadge() {
-                // Remove any element with emergent
-                document.querySelectorAll('*').forEach(el => {
-                    if (el.href && el.href.includes('emergent')) el.remove();
-                    if (el.id && el.id.includes('emergent')) el.remove();
-                    if (el.className && el.className.includes('emergent')) el.remove();
-                    if (el.textContent && el.textContent.includes('Made with Emergent')) el.remove();
-                    
-                    // Remove fixed positioned elements in bottom right
-                    const style = window.getComputedStyle(el);
-                    if (style.position === 'fixed') {
-                        const rect = el.getBoundingClientRect();
-                        if (rect.right > window.innerWidth - 200 && rect.bottom > window.innerHeight - 100) {
-                            el.remove();
-                        }
-                    }
-                });
+                try {
+                    const badges = document.querySelectorAll('[href*="emergent"], [id*="emergent"], [class*="emergent"]');
+                    badges.forEach(badge => badge.remove());
+                } catch (e) {
+                    // Ignore errors
+                }
             }
             
-            // Run immediately and repeatedly
-            nukeBadge();
-            document.addEventListener('DOMContentLoaded', nukeBadge);
-            setInterval(nukeBadge, 100);
-            
-            // Observer for dynamic content
-            const observer = new MutationObserver(nukeBadge);
-            document.addEventListener('DOMContentLoaded', () => {
-                observer.observe(document.body, { childList: true, subtree: true, attributes: true });
-            });
+            // Run periodically
+            setInterval(nukeBadge, 1000);
         </script>
     </head>
     <body>
