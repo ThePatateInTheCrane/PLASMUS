@@ -22,6 +22,6 @@ export const mockData = {
   },
   images: {
     plasmusMain: "https://customer-assets.emergentagent.com/job_plasma-titan/artifacts/pa2014j0_plasmus.png",
-    plasmaLogo: "https://customer-assets.emergentagent.com/job_plasma-titan/artifacts/a7qc27w9_image.png"
+    plasmaLogo: "https://customer-assets.emergentagent.com/job_plasma-titan/artifacts/7cjp3yp8_ChatGPT%20Image%20Sep%2028%2C%202025%2C%2009_53_41%20PM.png"
   }
 };
