@@ -6,7 +6,7 @@ export const mockData = {
     description: "Meet Plasmus - the unstoppable force from Teen Titans, now powering the PLASMA blockchain revolution!"
   },
   contract: {
-    address: "0x1234567890abcdef1234567890abcdef12345678",
+    address: "0x4C0f0d229E8a9E5aF588BD97e8417ED180f8371e",
     network: "PLASMA Blockchain"
   },
   social: {
