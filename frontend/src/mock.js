@@ -10,7 +10,7 @@ export const mockData = {
     network: "PLASMA Blockchain"
   },
   social: {
-    twitter: "https://twitter.com/PlasmusToken"
+    twitter: "https://x.com/Plasmus_"
   },
   about: {
     title: "About PLASMUS",
