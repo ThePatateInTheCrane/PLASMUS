@@ -127,7 +127,7 @@ const PlasmusLanding = () => {
               <Button
                 variant="ghost"
                 size="sm"
-                className="text-white hover:text-brand-primary"
+                className="text-black hover:text-brand-primary"
                 onClick={() => window.open(mockData.social.twitter, '_blank')}
               >
                 <Twitter className="w-5 h-5" />
