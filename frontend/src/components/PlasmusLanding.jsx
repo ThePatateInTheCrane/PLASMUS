@@ -117,47 +117,6 @@ const PlasmusLanding = () => {
 
       <Separator className="border-white/10" />
 
-      {/* Gallery Section */}
-      <section className="section-padding">
-        <div className="content-container text-center">
-          <h3 className="display-medium text-white mb-16">Meet Plasmus</h3>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            <Card className="bg-white/5 border-white/20 backdrop-blur-sm overflow-hidden">
-              <CardContent className="p-4">
-                <img 
-                  src={mockData.images.plasmusTeenTitans}
-                  alt="Plasmus with Teen Titans"
-                  className="w-full h-48 object-contain"
-                />
-              </CardContent>
-            </Card>
-            
-            <Card className="bg-white/5 border-white/20 backdrop-blur-sm overflow-hidden">
-              <CardContent className="p-4">
-                <img 
-                  src={mockData.images.pinkBlob1}
-                  alt="Pink Blob Creature"
-                  className="w-full h-48 object-cover rounded"
-                />
-              </CardContent>
-            </Card>
-            
-            <Card className="bg-white/5 border-white/20 backdrop-blur-sm overflow-hidden">
-              <CardContent className="p-4">
-                <img 
-                  src={mockData.images.abstractPink}
-                  alt="Abstract Pink Form"
-                  className="w-full h-48 object-cover rounded"
-                />
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
-
-      <Separator className="border-white/10" />
-
       {/* Tokenomics Section */}
       <section id="tokenomics" className="section-padding">
         <div className="content-container text-center">
