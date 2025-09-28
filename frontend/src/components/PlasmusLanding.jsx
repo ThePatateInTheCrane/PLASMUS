@@ -90,10 +90,10 @@ const PlasmusLanding = () => {
         <div className="content-container">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div>
-              <h3 className="display-medium text-white mb-8">
+              <h3 className="display-medium text-black mb-8">
                 {mockData.about.title}
               </h3>
-              <p className="body-medium text-white leading-relaxed">
+              <p className="body-medium text-black leading-relaxed">
                 {mockData.about.description}
               </p>
             </div>
