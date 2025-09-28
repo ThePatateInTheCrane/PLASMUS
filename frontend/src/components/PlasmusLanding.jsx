@@ -187,7 +187,7 @@ const PlasmusLanding = () => {
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="flex items-center gap-4">
               <img 
-                src="https://customer-assets.emergentagent.com/job_0c33c995-142e-4556-b6db-e4de110a884f/artifacts/8fjyjkbo_image.png" 
+                src={mockData.images.plasmusMain}
                 alt="Plasmus"
                 className="h-10 w-auto object-contain"
               />
