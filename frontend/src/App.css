@@ -58,32 +58,11 @@
 .plasmus-container {
   background: var(--bg-primary);
   background-image: 
-    repeating-linear-gradient(0deg, transparent, transparent 1px, transparent 1px, transparent 7.6923%),
-    repeating-linear-gradient(-90deg, #fff, #fff 1px, transparent 1px, transparent 7.6923%);
+    repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(255, 255, 255, 0.02) 1px, rgba(255, 255, 255, 0.02) 7.6923%),
+    repeating-linear-gradient(-90deg, transparent, transparent 1px, rgba(255, 255, 255, 0.02) 1px, rgba(255, 255, 255, 0.02) 7.6923%);
   background-size: 100% 100%;
-  opacity: 1;
   position: relative;
   min-height: 100vh;
-}
-
-.plasmus-container::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: 
-    repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(255, 255, 255, 0.03) 1px, rgba(255, 255, 255, 0.03) 7.6923%),
-    repeating-linear-gradient(-90deg, transparent, transparent 1px, rgba(255, 255, 255, 0.03) 1px, rgba(255, 255, 255, 0.03) 7.6923%);
-  background-size: 100% 100%;
-  pointer-events: none;
-  z-index: 0;
-}
-
-.plasmus-container > * {
-  position: relative;
-  z-index: 1;
 }
 
 /* Header Styles */
