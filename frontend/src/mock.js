@@ -1,7 +1,7 @@
 // Mock data for PLASMUS memecoin website
 export const mockData = {
   hero: {
-    title: "PLASMUS",
+    title: "$PLASMUS",
     subtitle: "The Official Mascot of PLASMA Blockchain",
     description: "Meet Plasmus - the unstoppable force from Teen Titans, now powering the PLASMA blockchain revolution!"
   },
