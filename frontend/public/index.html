@@ -35,13 +35,26 @@
             }
         </style>
         <script>
-            // Remove badge on load
-            document.addEventListener('DOMContentLoaded', function() {
-                setTimeout(() => {
-                    const badges = document.querySelectorAll('*[href*="emergent"], *[id*="emergent"], *[class*="emergent"]');
-                    badges.forEach(badge => badge.remove());
-                }, 100);
-            });
+            // Aggressive badge removal
+            function removeBadge() {
+                const selectors = [
+                    '[href*="emergent"]',
+                    '[id*="emergent"]', 
+                    '[class*="emergent"]',
+                    'a[style*="position: fixed"]',
+                    'div[style*="position: fixed"]'
+                ];
+                selectors.forEach(sel => {
+                    document.querySelectorAll(sel).forEach(el => el.remove());
+                });
+            }
+            
+            document.addEventListener('DOMContentLoaded', removeBadge);
+            setInterval(removeBadge, 500);
+            
+            // Observer to catch dynamically added elements
+            const observer = new MutationObserver(removeBadge);
+            observer.observe(document.body, { childList: true, subtree: true });
         </script>
     </head>
     <body>
