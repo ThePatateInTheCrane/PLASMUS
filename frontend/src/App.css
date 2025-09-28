@@ -45,9 +45,9 @@
   --text-secondary: rgba(255, 255, 255, 0.95);
   --text-muted: #888888;
   
-  /* Borders - Subtle Dark Theme */
-  --border-subtle: rgba(255, 255, 255, 0.15);
-  --border-medium: rgba(255, 255, 255, 0.3);
+  /* Borders - PLASMA Theme */
+  --border-subtle: rgba(22, 47, 41, 0.3);
+  --border-medium: rgba(22, 47, 41, 0.5);
   
   /* MAIN ACCENT COLORS - PLASMA rgba(22, 47, 41) */
   --brand-primary: rgba(22, 47, 41, 1);
