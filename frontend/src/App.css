@@ -242,7 +242,7 @@
 .footer-section {
   padding: 60px 7.6923%;
   border-top: 1px solid var(--border-subtle);
-  background: var(--bg-secondary);
+  background: rgba(26, 46, 26, 0.8);
 }
 
 /* Responsive Design */
