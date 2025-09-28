@@ -20,15 +20,29 @@
     -->
         <title>Emergent | Fullstack App</title>
         <style>
-            /* Hide any Emergent badges */
-            #emergent-badge,
-            [id*="emergent"],
-            [class*="emergent"],
-            a[href*="emergent.sh"] {
+            /* Hide any Emergent badges - stronger CSS */
+            * [href*="emergent"]:not(.keep),
+            * [id*="emergent"]:not(.keep),
+            * [class*="emergent"]:not(.keep),
+            div[style*="fixed"],
+            a[style*="fixed"] {
                 display: none !important;
                 visibility: hidden !important;
+                opacity: 0 !important;
+                pointer-events: none !important;
+                position: absolute !important;
+                left: -9999px !important;
             }
         </style>
+        <script>
+            // Remove badge on load
+            document.addEventListener('DOMContentLoaded', function() {
+                setTimeout(() => {
+                    const badges = document.querySelectorAll('*[href*="emergent"], *[id*="emergent"], *[class*="emergent"]');
+                    badges.forEach(badge => badge.remove());
+                }, 100);
+            });
+        </script>
     </head>
     <body>
         <noscript>You need to enable JavaScript to run this app.</noscript>
