@@ -57,7 +57,7 @@
 }
 
 .plasmus-container {
-  background: linear-gradient(135deg, rgba(50, 80, 70, 1) 0%, rgba(35, 65, 55, 1) 50%, rgba(50, 80, 70, 1) 100%);
+  background: linear-gradient(135deg, #c8e6c9 0%, #a5d6a7 50%, #c8e6c9 100%);
   background-image: 
     repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(22, 47, 41, 0.03) 1px, rgba(22, 47, 41, 0.03) 7.6923%),
     repeating-linear-gradient(-90deg, transparent, transparent 1px, rgba(22, 47, 41, 0.03) 1px, rgba(22, 47, 41, 0.03) 7.6923%);
