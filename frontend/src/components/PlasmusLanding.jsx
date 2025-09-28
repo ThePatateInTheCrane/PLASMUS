@@ -196,6 +196,11 @@ const PlasmusLanding = () => {
                 alt="Plasmus"
                 className="h-10 w-auto object-contain"
               />
+              <img 
+                src={mockData.images.plasmaLogo}
+                alt="PLASMA Logo"
+                className="h-8 w-auto object-contain"
+              />
               <span className="text-white text-lg font-semibold">PLASMUS</span>
             </div>
             
