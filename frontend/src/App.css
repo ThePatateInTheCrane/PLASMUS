@@ -91,7 +91,7 @@
 }
 
 .dark-nav-link {
-  color: var(--text-secondary);
+  color: #000000;
   text-decoration: none;
   font-size: 18px;
   font-weight: 400;
