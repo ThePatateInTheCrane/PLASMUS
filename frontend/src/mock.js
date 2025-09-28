@@ -21,7 +21,7 @@ export const mockData = {
     symbol: "PLASMUS"
   },
   images: {
-    plasmusMain: "https://img.favpng.com/0/24/10/cinderblock-plasmus-teen-titans-supervillain-png-favpng-UQ1ipeaCmsWLkXa4Zm5jk1nEt.jpg",
+    plasmusMain: "https://customer-assets.emergentagent.com/job_plasma-titan/artifacts/pa2014j0_plasmus.png",
     plasmaLogo: "https://customer-assets.emergentagent.com/job_plasma-titan/artifacts/a7qc27w9_image.png"
   }
 };
