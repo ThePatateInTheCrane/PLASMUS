@@ -42,7 +42,7 @@ const PlasmusLanding = () => {
             </div>
             
             <h1 className="display-huge text-black mb-6">
-              ${mockData.hero.title}
+              {mockData.hero.title}
             </h1>
             
             <h2 className="display-medium text-brand-primary mb-8">
