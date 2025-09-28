@@ -120,7 +120,7 @@ const PlasmusLanding = () => {
                 alt="PLASMA Logo"
                 className="h-10 w-auto object-contain"
               />
-              <span className="text-black text-lg font-semibold">PLASMUS</span>
+              <span className="text-black text-lg font-semibold">$PLASMUS</span>
             </div>
             
             <div className="flex gap-6">
