@@ -128,10 +128,7 @@ const PlasmusLanding = () => {
               <Button
                 variant="ghost"
                 size="sm"
-                className="text-white"
-                style={{color: 'rgba(22, 47, 41, 1)'}}
-                onMouseEnter={(e) => e.target.style.color = '#FFFFFF'}
-                onMouseLeave={(e) => e.target.style.color = 'rgba(22, 47, 41, 1)'}
+                className="text-black hover:text-brand-primary"
                 onClick={() => window.open(mockData.social.twitter, '_blank')}
               >
                 <Twitter className="w-5 h-5" />
