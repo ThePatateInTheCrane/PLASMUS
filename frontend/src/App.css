@@ -35,8 +35,8 @@
 
 /* PLASMUS PLASMA Theme Styles */
 :root {
-  /* Backgrounds - PLASMA Theme */
-  --bg-primary: linear-gradient(135deg, rgba(22, 47, 41, 1) 0%, rgba(18, 38, 33, 1) 50%, rgba(22, 47, 41, 1) 100%);
+  /* Backgrounds - PLASMA Theme avec rgba(22, 47, 41) */
+  --bg-primary: linear-gradient(135deg, rgba(35, 70, 62, 1) 0%, rgba(22, 47, 41, 1) 50%, rgba(35, 70, 62, 1) 100%);
   --bg-secondary: rgba(22, 47, 41, 1);
   --bg-overlay: rgba(22, 47, 41, 0.1);
   
@@ -49,7 +49,7 @@
   --border-subtle: rgba(22, 47, 41, 0.3);
   --border-medium: rgba(22, 47, 41, 0.5);
   
-  /* PLASMA BRAND COLORS */
+  /* PLASMA BRAND COLORS - rgba(22, 47, 41) */
   --brand-primary: rgba(22, 47, 41, 1);
   --brand-hover: rgba(22, 47, 41, 0.2);
   --brand-active: rgba(22, 47, 41, 0.8);
