@@ -135,7 +135,7 @@ const PlasmusLanding = () => {
               </Button>
             </div>
             
-            <div className="text-black/70 text-sm">
+            <div className="text-white/70 text-sm">
               © 2025 $PLASMUS. Powered by PLASMA Blockchain.
             </div>
           </div>
