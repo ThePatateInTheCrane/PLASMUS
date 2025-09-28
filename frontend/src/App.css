@@ -33,26 +33,28 @@
     }
 }
 
-/* PLASMUS Dark Theme Styles */
+/* PLASMUS PLASMA Theme Styles */
 :root {
-  /* Backgrounds - Dark Theme Foundation */
-  --bg-primary: #0a0a0a;
-  --bg-secondary: #1a1a1a;
-  --bg-overlay: rgba(255, 255, 255, 0.05);
+  /* Backgrounds - PLASMA Green Theme */
+  --bg-primary: linear-gradient(135deg, #1a2e1a 0%, #0d4d0d 50%, #1a2e1a 100%);
+  --bg-secondary: #1a2e1a;
+  --bg-overlay: rgba(174, 255, 0, 0.08);
   
-  /* Text - High Contrast for Dark Theme */
+  /* Text - High Contrast */
   --text-primary: #FFFFFF;
-  --text-secondary: rgba(255, 255, 255, 0.9);
-  --text-muted: #888888;
+  --text-secondary: rgba(255, 255, 255, 0.95);
+  --text-muted: #99FF00;
   
-  /* Borders - Subtle Dark Theme */
-  --border-subtle: rgba(255, 255, 255, 0.15);
-  --border-medium: rgba(255, 255, 255, 0.3);
+  /* Borders - PLASMA Green Theme */
+  --border-subtle: rgba(153, 255, 0, 0.2);
+  --border-medium: rgba(153, 255, 0, 0.4);
   
-  /* MAIN ACCENT COLORS - Brand Colors Only */
-  --brand-primary: #00FFD1;
-  --brand-hover: rgba(0, 255, 209, 0.15);
-  --brand-active: #6FD2C0;
+  /* PLASMA BRAND COLORS */
+  --brand-primary: #99FF00;
+  --brand-hover: rgba(153, 255, 0, 0.2);
+  --brand-active: #AEFF00;
+  --plasma-green: #99FF00;
+  --plasma-dark-green: #66CC00;
 }
 
 .plasmus-container {
