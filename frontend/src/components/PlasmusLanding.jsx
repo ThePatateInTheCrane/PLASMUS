@@ -20,13 +20,18 @@ const PlasmusLanding = () => {
     <div className="plasmus-container">
       {/* Navigation Header */}
       <header className="dark-header">
-        <div className="flex items-center">
+        <div className="flex items-center gap-4">
           <img 
             src={mockData.images.plasmusMain}
             alt="Plasmus"
             className="h-12 w-auto object-contain"
           />
-          <span className="ml-4 text-2xl font-bold text-white">PLASMUS</span>
+          <img 
+            src={mockData.images.plasmaLogo}
+            alt="PLASMA Logo"
+            className="h-10 w-auto object-contain"
+          />
+          <span className="ml-2 text-2xl font-bold text-white">PLASMUS</span>
         </div>
         <nav className="dark-nav">
           <a href="#about" className="dark-nav-link">About</a>
