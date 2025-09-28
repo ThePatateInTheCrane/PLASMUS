@@ -35,25 +35,24 @@
 
 /* PLASMUS PLASMA Theme Styles */
 :root {
-  /* Backgrounds - PLASMA Theme avec rgba(22, 47, 41) */
-  --bg-primary: linear-gradient(135deg, rgba(35, 70, 62, 1) 0%, rgba(22, 47, 41, 1) 50%, rgba(35, 70, 62, 1) 100%);
-  --bg-secondary: rgba(22, 47, 41, 1);
-  --bg-overlay: rgba(22, 47, 41, 0.1);
+  /* Backgrounds - PLASMA Green Theme */
+  --bg-primary: linear-gradient(135deg, #1a2e1a 0%, #0d4d0d 50%, #1a2e1a 100%);
+  --bg-secondary: #1a2e1a;
+  --bg-overlay: rgba(174, 255, 0, 0.08);
   
-  /* Text - High Contrast */
+  /* Text - High Contrast for Dark Theme */
   --text-primary: #FFFFFF;
   --text-secondary: rgba(255, 255, 255, 0.95);
-  --text-muted: rgba(22, 47, 41, 1);
+  --text-muted: #888888;
   
-  /* Borders - PLASMA Theme */
-  --border-subtle: rgba(22, 47, 41, 0.3);
-  --border-medium: rgba(22, 47, 41, 0.5);
+  /* Borders - Subtle Dark Theme */
+  --border-subtle: rgba(255, 255, 255, 0.15);
+  --border-medium: rgba(255, 255, 255, 0.3);
   
-  /* PLASMA BRAND COLORS - rgba(22, 47, 41) */
-  --brand-primary: rgba(22, 47, 41, 1);
-  --brand-hover: rgba(22, 47, 41, 0.2);
-  --brand-active: rgba(22, 47, 41, 0.8);
-  --plasma-green: rgba(22, 47, 41, 1);
+  /* MAIN ACCENT COLORS - Brand Colors Only */
+  --brand-primary: #00FFD1;
+  --brand-hover: rgba(0, 255, 209, 0.15);
+  --brand-active: #6FD2C0;
 }
 
 .plasmus-container {
