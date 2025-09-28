@@ -101,7 +101,7 @@ const PlasmusLanding = () => {
             
             <div className="flex justify-center">
               <img 
-                src="https://customer-assets.emergentagent.com/job_0c33c995-142e-4556-b6db-e4de110a884f/artifacts/8fjyjkbo_image.png" 
+                src={mockData.images.plasmusMain}
                 alt="Plasmus Character"
                 className="w-80 h-auto object-contain filter drop-shadow-2xl"
               />
