@@ -70,7 +70,7 @@
 
 /* Header Styles */
 .dark-header {
-  background: rgba(26, 46, 26, 0.9);
+  background: rgba(46, 70, 46, 0.95);
   border-bottom: 1px solid var(--border-subtle);
   padding: 16px 7.6923%;
   display: flex;
