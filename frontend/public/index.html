@@ -20,18 +20,35 @@
     -->
         <title>Emergent | Fullstack App</title>
         <style>
-            /* Hide any Emergent badges - stronger CSS */
-            * [href*="emergent"]:not(.keep),
-            * [id*="emergent"]:not(.keep),
-            * [class*="emergent"]:not(.keep),
-            div[style*="fixed"],
-            a[style*="fixed"] {
+            /* Nuclear option - hide anything in bottom right corner */
+            * {
+                position: relative;
+            }
+            
+            *[style*="position: fixed"][style*="bottom"][style*="right"],
+            *[style*="position:fixed"][style*="bottom"][style*="right"],
+            *[style*="bottom: 20px"][style*="right: 20px"],
+            *[style*="bottom:20px"][style*="right:20px"],
+            *[href*="emergent"],
+            *[id*="emergent"],
+            *[class*="emergent"],
+            a[target="_blank"][href*="app.emergent"],
+            div:has(img[src*="avatars.githubusercontent.com"]) {
                 display: none !important;
                 visibility: hidden !important;
                 opacity: 0 !important;
                 pointer-events: none !important;
                 position: absolute !important;
-                left: -9999px !important;
+                left: -99999px !important;
+                top: -99999px !important;
+                width: 0 !important;
+                height: 0 !important;
+                overflow: hidden !important;
+            }
+            
+            /* Block all fixed positioned elements in bottom right quadrant */
+            body > *[style*="position: fixed"] {
+                display: none !important;
             }
         </style>
         <script>
