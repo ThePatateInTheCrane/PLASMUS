@@ -49,10 +49,10 @@
   --border-subtle: rgba(255, 255, 255, 0.15);
   --border-medium: rgba(255, 255, 255, 0.3);
   
-  /* MAIN ACCENT COLORS - Brand Colors Only */
-  --brand-primary: #00FFD1;
-  --brand-hover: rgba(0, 255, 209, 0.15);
-  --brand-active: #6FD2C0;
+  /* MAIN ACCENT COLORS - PLASMA rgba(22, 47, 41) */
+  --brand-primary: rgba(22, 47, 41, 1);
+  --brand-hover: rgba(22, 47, 41, 0.15);
+  --brand-active: rgba(22, 47, 41, 0.8);
 }
 
 .plasmus-container {
