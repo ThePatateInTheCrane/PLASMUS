@@ -37,7 +37,7 @@ const PlasmusLanding = () => {
       <main className="hero-section">
         <div className="hero-content">
           <div className="hero-left">
-            <div className="mb-6 bg-brand-primary text-black px-4 py-2 text-sm font-medium inline-block rounded">
+            <div className="mb-6 px-4 py-2 text-sm font-medium inline-block rounded" style={{backgroundColor: 'rgba(22, 47, 41, 1)', color: 'white'}}>
               Official PLASMA Blockchain Mascot
             </div>
             
