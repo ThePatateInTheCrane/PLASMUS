@@ -22,9 +22,6 @@ export const mockData = {
   },
   images: {
     plasmusMain: "https://img.favpng.com/0/24/10/cinderblock-plasmus-teen-titans-supervillain-png-favpng-UQ1ipeaCmsWLkXa4Zm5jk1nEt.jpg",
-    plasmusTeenTitans: "https://img.favpng.com/4/9/22/bumblebee-starfire-teen-titans-plasmus-art-png-favpng-RjXg7qGJMd8v1aDHRusjbkhUC.jpg",
-    pinkBlob1: "https://images.unsplash.com/photo-1647351408678-7ce4759a9c1d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHwyfHxwaW5rJTIwYmxvYiUyMGNyZWF0dXJlfGVufDB8fHx8MTc1OTA4NTY2MXww&ixlib=rb-4.1.0&q=85",
-    pinkBlob2: "https://images.unsplash.com/photo-1744792224312-b35458e787b9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHwzfHxwaW5rJTIwYmxvYiUyMGNyZWF0dXJlfGVufDB8fHx8MTc1OTA4NTY2MXww&ixlib=rb-4.1.0&q=85",
-    abstractPink: "https://images.unsplash.com/photo-1585495595046-3737df3f4900?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHw0fHxwaW5rJTIwYmxvYiUyMGNyZWF0dXJlfGVufDB8fHx8MTc1OTA4NTY2MXww&ixlib=rb-4.1.0&q=85"
+    plasmaLogo: "https://customer-assets.emergentagent.com/job_plasma-titan/artifacts/a7qc27w9_image.png"
   }
 };
