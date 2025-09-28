@@ -22,21 +22,14 @@ const PlasmusLanding = () => {
       <header className="dark-header">
         <div className="flex items-center gap-4">
           <img 
-            src={mockData.images.plasmusMain}
-            alt="Plasmus"
-            className="h-12 w-auto object-contain"
-          />
-          <img 
             src={mockData.images.plasmaLogo}
             alt="PLASMA Logo"
-            className="h-10 w-auto object-contain"
+            className="h-12 w-auto object-contain"
           />
-          <span className="ml-2 text-2xl font-bold text-white">PLASMUS</span>
+          <span className="ml-2 text-2xl font-bold text-black">PLASMUS</span>
         </div>
         <nav className="dark-nav">
           <a href="#about" className="dark-nav-link">About</a>
-          <a href="#tokenomics" className="dark-nav-link">Token</a>
-          <a href="#contract" className="dark-nav-link">Contract</a>
         </nav>
       </header>
 
