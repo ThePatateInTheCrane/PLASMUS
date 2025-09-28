@@ -37,9 +37,9 @@ const PlasmusLanding = () => {
       <main className="hero-section">
         <div className="hero-content">
           <div className="hero-left">
-            <Badge className="mb-6 bg-brand-primary text-black px-4 py-2 text-sm font-medium">
+            <div className="mb-6 bg-brand-primary text-black px-4 py-2 text-sm font-medium inline-block rounded">
               Official PLASMA Blockchain Mascot
-            </Badge>
+            </div>
             
             <h1 className="display-huge text-black mb-6">
               {mockData.hero.title}
