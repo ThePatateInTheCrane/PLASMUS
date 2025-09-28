@@ -45,7 +45,7 @@ const PlasmusLanding = () => {
               {mockData.hero.title}
             </h1>
             
-            <h2 className="display-medium text-black mb-8" style={{color: 'rgba(22, 47, 41, 1)'}}>
+            <h2 className="display-medium text-brand-primary mb-8">
               {mockData.hero.subtitle}
             </h2>
             
