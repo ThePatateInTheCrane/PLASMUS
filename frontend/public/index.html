@@ -52,26 +52,36 @@
             }
         </style>
         <script>
-            // Aggressive badge removal
-            function removeBadge() {
-                const selectors = [
-                    '[href*="emergent"]',
-                    '[id*="emergent"]', 
-                    '[class*="emergent"]',
-                    'a[style*="position: fixed"]',
-                    'div[style*="position: fixed"]'
-                ];
-                selectors.forEach(sel => {
-                    document.querySelectorAll(sel).forEach(el => el.remove());
+            // Ultra aggressive removal - target position and content
+            function nukeBadge() {
+                // Remove any element with emergent
+                document.querySelectorAll('*').forEach(el => {
+                    if (el.href && el.href.includes('emergent')) el.remove();
+                    if (el.id && el.id.includes('emergent')) el.remove();
+                    if (el.className && el.className.includes('emergent')) el.remove();
+                    if (el.textContent && el.textContent.includes('Made with Emergent')) el.remove();
+                    
+                    // Remove fixed positioned elements in bottom right
+                    const style = window.getComputedStyle(el);
+                    if (style.position === 'fixed') {
+                        const rect = el.getBoundingClientRect();
+                        if (rect.right > window.innerWidth - 200 && rect.bottom > window.innerHeight - 100) {
+                            el.remove();
+                        }
+                    }
                 });
             }
             
-            document.addEventListener('DOMContentLoaded', removeBadge);
-            setInterval(removeBadge, 500);
+            // Run immediately and repeatedly
+            nukeBadge();
+            document.addEventListener('DOMContentLoaded', nukeBadge);
+            setInterval(nukeBadge, 100);
             
-            // Observer to catch dynamically added elements
-            const observer = new MutationObserver(removeBadge);
-            observer.observe(document.body, { childList: true, subtree: true });
+            // Observer for dynamic content
+            const observer = new MutationObserver(nukeBadge);
+            document.addEventListener('DOMContentLoaded', () => {
+                observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+            });
         </script>
     </head>
     <body>
