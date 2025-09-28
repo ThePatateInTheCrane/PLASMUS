@@ -35,26 +35,27 @@
 
 /* PLASMUS PLASMA Theme Styles */
 :root {
-  /* Backgrounds - PLASMA Green Theme */
-  --bg-primary: linear-gradient(135deg, #1a2e1a 0%, #0d4d0d 50%, #1a2e1a 100%);
-  --bg-secondary: #1a2e1a;
-  --bg-overlay: rgba(174, 255, 0, 0.08);
+  /* Backgrounds - PLASMA Dark Forest Green Theme */
+  --bg-primary: linear-gradient(135deg, #1a2d1a 0%, #0f1f0f 50%, #1a2d1a 100%);
+  --bg-secondary: #162016;
+  --bg-overlay: rgba(46, 70, 46, 0.1);
   
   /* Text - High Contrast */
   --text-primary: #FFFFFF;
   --text-secondary: rgba(255, 255, 255, 0.95);
-  --text-muted: #99FF00;
+  --text-muted: #4a8a4a;
   
-  /* Borders - PLASMA Green Theme */
-  --border-subtle: rgba(153, 255, 0, 0.2);
-  --border-medium: rgba(153, 255, 0, 0.4);
+  /* Borders - PLASMA Forest Green Theme */
+  --border-subtle: rgba(70, 120, 70, 0.2);
+  --border-medium: rgba(70, 120, 70, 0.4);
   
-  /* PLASMA BRAND COLORS */
-  --brand-primary: #99FF00;
-  --brand-hover: rgba(153, 255, 0, 0.2);
-  --brand-active: #AEFF00;
-  --plasma-green: #99FF00;
-  --plasma-dark-green: #66CC00;
+  /* PLASMA BRAND COLORS - Forest Green */
+  --brand-primary: #4a8a4a;
+  --brand-hover: rgba(74, 138, 74, 0.2);
+  --brand-active: #5a9a5a;
+  --plasma-green: #4a8a4a;
+  --plasma-dark-green: #3a7a3a;
+  --forest-green: #2e462e;
 }
 
 .plasmus-container {
