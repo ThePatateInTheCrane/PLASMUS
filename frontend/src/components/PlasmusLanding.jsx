@@ -116,16 +116,11 @@ const PlasmusLanding = () => {
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="flex items-center gap-4">
               <img 
-                src={mockData.images.plasmusMain}
-                alt="Plasmus"
-                className="h-10 w-auto object-contain"
-              />
-              <img 
                 src={mockData.images.plasmaLogo}
                 alt="PLASMA Logo"
-                className="h-8 w-auto object-contain"
+                className="h-10 w-auto object-contain"
               />
-              <span className="text-white text-lg font-semibold">PLASMUS</span>
+              <span className="text-black text-lg font-semibold">PLASMUS</span>
             </div>
             
             <div className="flex gap-6">
