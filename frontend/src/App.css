@@ -36,22 +36,22 @@
 /* PLASMUS Dark Theme Styles */
 :root {
   /* Backgrounds - Dark Theme Foundation */
-  --bg-primary: #000000;
-  --bg-secondary: #121212;
-  --bg-overlay: rgba(255, 255, 255, 0.1);
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #1a1a1a;
+  --bg-overlay: rgba(255, 255, 255, 0.05);
   
   /* Text - High Contrast for Dark Theme */
   --text-primary: #FFFFFF;
-  --text-secondary: rgba(255, 255, 255, 0.85);
-  --text-muted: #4D4D4D;
+  --text-secondary: rgba(255, 255, 255, 0.9);
+  --text-muted: #888888;
   
   /* Borders - Subtle Dark Theme */
-  --border-subtle: rgba(255, 255, 255, 0.25);
-  --border-medium: rgba(255, 255, 255, 0.4);
+  --border-subtle: rgba(255, 255, 255, 0.15);
+  --border-medium: rgba(255, 255, 255, 0.3);
   
   /* MAIN ACCENT COLORS - Brand Colors Only */
   --brand-primary: #00FFD1;
-  --brand-hover: rgba(0, 255, 209, 0.1);
+  --brand-hover: rgba(0, 255, 209, 0.15);
   --brand-active: #6FD2C0;
 }
 
