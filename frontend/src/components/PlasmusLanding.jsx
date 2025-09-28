@@ -66,6 +66,7 @@ const PlasmusLanding = () => {
                 variant="secondary"
                 className="btn-secondary"
                 onClick={() => copyToClipboard(mockData.contract.address)}
+                className="text-black"
               >
                 <Copy className="w-5 h-5" />
                 {copied ? 'Copied!' : 'Copy Contract'}
