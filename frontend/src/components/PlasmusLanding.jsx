@@ -26,7 +26,7 @@ const PlasmusLanding = () => {
             alt="PLASMA Logo"
             className="h-12 w-auto object-contain"
           />
-          <span className="ml-2 text-2xl font-bold text-black">PLASMUS</span>
+          <span className="ml-2 text-2xl font-bold text-black">$PLASMUS</span>
         </div>
         <nav className="dark-nav">
           <a href="#about" className="dark-nav-link">About</a>
