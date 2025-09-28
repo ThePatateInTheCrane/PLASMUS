@@ -41,15 +41,15 @@ const PlasmusLanding = () => {
               Official PLASMA Blockchain Mascot
             </div>
             
-            <h1 className="display-huge text-white mb-6">
+            <h1 className="display-huge text-black mb-6">
               {mockData.hero.title}
             </h1>
             
-            <h2 className="display-medium text-white mb-8" style={{color: 'rgba(22, 47, 41, 1)'}}>
+            <h2 className="display-medium text-black mb-8" style={{color: 'rgba(22, 47, 41, 1)'}}>
               {mockData.hero.subtitle}
             </h2>
             
-            <p className="body-large text-white mb-12 max-w-2xl">
+            <p className="body-large text-black mb-12 max-w-2xl">
               {mockData.hero.description}
             </p>
 
