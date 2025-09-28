@@ -13,7 +13,7 @@ export const mockData = {
     twitter: "https://x.com/Plasmus_"
   },
   about: {
-    title: "About PLASMUS",
+    title: "About $PLASMUS",
     description: "Plasmus isn't just a memecoin - he's the beating heart of the PLASMA blockchain ecosystem. This pink powerhouse represents the unstoppable energy and growth potential of our revolutionary network. As PLASMA's official mascot, Plasmus embodies the strength, resilience, and explosive potential that defines our community."
   },
   tokenomics: {
